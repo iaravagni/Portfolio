@@ -13,7 +13,7 @@ export const personalInfo = {
     email: "is.ravagni@gmail.com",
     github: "https://github.com/iaravagni",
     linkedin: "https://linkedin.com/in/iararavagni",
-    twitter: "https://twitter.com/",
+    twitter: "https://twitter.com/ ",
   }
 };
 
