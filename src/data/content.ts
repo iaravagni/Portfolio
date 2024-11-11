@@ -80,7 +80,7 @@ export const education = [
 export const projects = [
     {
       title: "Pregnancy contractions monitoring device",
-      description: "Developed a prototype for a pregnancy contractions monitoring device. The device integrated Arduino microcontrollers and Myoware sensors. Its Flutter app enabled real-time Bluetooth data transmission, while Firebase ensured secure storage. Collaborating across disciplines, I validated the device's accuracy through comprehensive testing, honing my skills in hardware, software, and interdisciplinary teamwork.",
+      description: "Developed a prototype for a pregnancy contractions monitoring device. The device integrated Arduino microcontrollers and Myoware sensors. Its Flutter app enabled real-time Bluetooth data transmission, while Firebase ensured secure storage. Collaborating across disciplines, I validated the device accuracy through comprehensive testing, honing my skills in hardware, software, and interdisciplinary teamwork.",
       technologies: ["Flutter", "Dart", "Signal Processing", "Hardware", "Firebase"],
       internalLink: "/projects/vaia",
       externalLink: "https://github.com/iaravagni/ProyectoFinal",
