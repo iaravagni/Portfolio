@@ -19,9 +19,10 @@ export function Hero({ name, title, imageUrl }: HeroProps) {
         />
       </div>
       <div className="text-center sm:text-left space-y-4">
-        <h1 className="text-4xl sm:text-6xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">
-          {name}
-        </h1>
+      <h1 className="text-4xl sm:text-6xl font-bold bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent pt-4 pb-2">
+      {name}
+       </h1>
+
         <p className="text-xl text-muted-foreground">{title}</p>
       </div>
     </section>
