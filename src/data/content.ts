@@ -4,7 +4,11 @@ export const personalInfo = {
   name: "Iara S. Ravagni",
   title: "Bioengineer diving into AI",
   imageUrl: "/profile.jpeg",
-  about: "Bioengineer from Argentina // with a passion for integrating AI into healthcare. My recent projects include developing a pregnancy contractions monitor and working on innovative solutions for physical therapy through virtual reality. These experiences reflect my commitment to blending technology with healthcare to drive meaningful change. Currently, I’m expanding my expertise in AI at Duke University, where I’m pursuing a Master of Engineering in Artificial Intelligence for Product Innovation. My goal is to leverage AI to create cutting-edge solutions in healthcare, and I’m excited about the potential to contribute to advancements in this field through both my academic and practical work. Outside of work and studies, I enjoy staying active at the gym, trying new restaurants, and capturing moments through photography. These interests help me maintain a balanced and well-rounded perspective, which I believe enhances my professional creativity.",
+  about: `Bioengineer from Argentina with a passion for integrating AI into healthcare. My recent projects include developing a pregnancy contractions monitor and working on innovative solutions for physical therapy through virtual reality. These experiences reflect my commitment to blending technology with healthcare to drive meaningful change. 
+
+  Currently, I’m expanding my expertise in AI at Duke University, where I’m pursuing a Master of Engineering in Artificial Intelligence for Product Innovation. My goal is to leverage AI to create cutting-edge solutions in healthcare, and I’m excited about the potential to contribute to advancements in this field through both my academic and practical work. 
+
+  Outside of work and studies, I enjoy staying active at the gym, trying new restaurants, and capturing moments through photography. These interests help me maintain a balanced and well-rounded perspective, which I believe enhances my professional creativity.`,
   contact: {
     email: "is.ravagni@gmail.com",
     github: "https://github.com/iaravagni",
@@ -12,6 +16,7 @@ export const personalInfo = {
     twitter: "https://twitter.com/",
   }
 };
+
 
 export const skills = [
   {

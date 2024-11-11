@@ -3,7 +3,7 @@ import { Mail } from "lucide-react";
 import {
   GitHubLogoIcon,
   LinkedInLogoIcon,
-  TwitterLogoIcon,
+  // TwitterLogoIcon,
 } from "@radix-ui/react-icons";
 import Link from "next/link";
 
@@ -12,7 +12,7 @@ interface ContactProps {
     email: string;
     github: string;
     linkedin: string;
-    twitter: string;
+    // twitter: string;
   };
 }
 
@@ -34,11 +34,6 @@ export function Contact({ contact }: ContactProps) {
         <Button asChild variant="ghost" size="icon">
           <Link href={contact.linkedin} target="_blank">
             <LinkedInLogoIcon className="h-6 w-6" />
-          </Link>
-        </Button>
-        <Button asChild variant="ghost" size="icon">
-          <Link href={contact.twitter} target="_blank">
-            <TwitterLogoIcon className="h-6 w-6" />
           </Link>
         </Button>
       </div>
