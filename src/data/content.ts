@@ -1,14 +1,14 @@
 // NOTE: You can split this file into multiple files if you want to, especially as you add more content.
 
 export const personalInfo = {
-  name: "Iara S. Ravagni",
-  title: "Bioengineer diving into AI",
-  imageUrl: "/profile.jpeg",
-  about: "Bioengineer from Argentina // with a passion for integrating AI into healthcare. My recent projects include developing a pregnancy contractions monitor and working on innovative solutions for physical therapy through virtual reality. These experiences reflect my commitment to blending technology with healthcare to drive meaningful change. Currently, I’m expanding my expertise in AI at Duke University, where I’m pursuing a Master of Engineering in Artificial Intelligence for Product Innovation. My goal is to leverage AI to create cutting-edge solutions in healthcare, and I’m excited about the potential to contribute to advancements in this field through both my academic and practical work. Outside of work and studies, I enjoy staying active at the gym, trying new restaurants, and capturing moments through photography. These interests help me maintain a balanced and well-rounded perspective, which I believe enhances my professional creativity.",
+  name: "Anna Lytics",
+  title: "Senior AI Engineer & Machine Learning Researcher",
+  imageUrl: "/profile.jpg",
+  about: "I'm a Senior AI Engineer with 2+ years of experience in developing and deploying machine learning solutions. My expertise spans across computer vision, natural language processing, and reinforcement learning. I'm passionate about making AI more accessible and ethical.",
   contact: {
-    email: "is.ravagni@gmail.com",
-    github: "https://github.com/iaravagni",
-    linkedin: "https://linkedin.com/in/iararavagni",
+    email: "jane.doe@example.com",
+    github: "https://github.com/",
+    linkedin: "https://linkedin.com/in/",
     twitter: "https://twitter.com/",
   }
 };
@@ -16,82 +16,87 @@ export const personalInfo = {
 export const skills = [
   {
     name: "AI/ML",
-    items: ["PyTorch", "TensorFlow"],
+    items: ["PyTorch", "TensorFlow", "Transformers", "Computer Vision", "NLP"],
   },
   {
     name: "Programming",
-    items: ["Python", "SQL", "C++", "Dart"],
+    items: ["Python", "TypeScript", "C++", "Julia", "CUDA"],
   },
   {
     name: "Cloud & MLOps",
-    items: ["AWS", "Azure ML", "Docker"],
+    items: ["AWS", "Azure ML", "Docker", "Kubernetes", "MLflow"],
   },
-  
+  {
+    name: "Web Development",
+    items: ["React", "Next.js", "Node.js", "FastAPI", "GraphQL"],
+  },
   {
     name: "Data Science",
     items: ["Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Jupyter"],
   },
   {
     name: "Tools",
-    items: ["Git", "Unity", "VS Code", "Jupyter Lab"],
+    items: ["Git", "Linux", "VS Code", "PyCharm", "Jupyter Lab"],
   },
 ];
 
 export const experience = [
   {
-    title: "Duke Innovation Co-Lab Developer",
-    company: "Duke Innovation Co-Lab",
-    location: "Durham, NC",
-    period: "2024 - Present",
+    title: "Machine Learning Engineer",
+    company: "AI Solutions Inc",
+    location: "Boston, MA",
+    period: "2022 - 2023",
     description: [
-      "Contributed to the development of a VR system for nurse training by integrating AI chatbots and speech recognition, enhancing the training experience with interactive, real-time feedback.",
+      "Developed NLP models for text classification and sentiment analysis",
+      "Implemented CI/CD pipelines for ML model deployment",
+      "Mentored junior engineers and interns",
     ],
   },
   {
-    title: "Analyst in Business Development & Alliance Management ",
-    company: "Celnova Pharma",
-    location: "Buenos Aires, Argentina",
-    period: "2022 - 2024",
+    title: "AI Research Intern",
+    company: "Research Labs",
+    location: "Seattle, WA",
+    period: "2021",
     description: [
-      "Developed a Python GUI app to automate business case processes, improving the speed of opportunity analysis.",
-      "Explored licensing opportunities in Latin America through market studies and key company connections, driving business alliances and assessing viability with opportunity analysis.",
-      "Supported strategic alliances with major industry players like Novartis and Alnylam. Participated in contract reviews and negotiations and created data-driven reports on project status and molecule performance for partners."
+      "Developed novel algorithms for reinforcement learning",
+      "Collaborated with cross-functional teams on research projects",
+      "Implemented and evaluated ML models for production use cases",
     ],
   },
 ];
 
 export const education = [
   {
-    degree: "M.Eng. in Artificial Intelligence for Product Innovation",
+    degree: "M.S. in Artificial Intelligence",
     school: "Duke University",
     location: "Durham, NC",
-    period: "2024 - 2025",
-    description: "Coursework: Modelling & Processing Algorithms, Sourcing Data for Analytics, Optimization",
+    period: "2023 - 2025",
+    description: "Focus: Responsible AI",
   },
   {
-    degree: "B.S. in Bioengineering",
-    school: "Instituto Tecnológico Buenos Aires (ITBA)",
-    location: "Buenos Aires, Argentina",
+    degree: "B.S. in Computer Science",
+    school: "NC State University",
+    location: "Raleigh, NC",
     period: "2018 - 2022",
-    description: "Coursework: ML, Biomedical Signals & Image Processing, Biostatistics, Bioinformatics, Bioinstrumentation",
+    description: "Minor in Mathematics",
   },
 ]; 
 
 export const projects = [
     {
-      title: "Pregnancy contractions monitoring device",
-      description: "Developed a prototype for a pregnancy contractions monitoring device. The device integrated Arduino microcontrollers and Myoware sensors. Its Flutter app enabled real-time Bluetooth data transmission, while Firebase ensured secure storage. Collaborating across disciplines, I validated the device accuracy through comprehensive testing, honing my skills in hardware, software, and interdisciplinary teamwork.",
-      technologies: ["Flutter", "Dart", "Signal Processing", "Hardware", "Firebase"],
-      internalLink: "/projects/vaia",
-      externalLink: "https://github.com/iaravagni/ProyectoFinal",
-      image: "/projects/vaia/vaia.png",
+      title: "Natural Language Processing Platform",
+      description: "Built a scalable NLP platform for sentiment analysis and text classification, processing 1M+ documents daily.",
+      technologies: ["Transformers", "AWS", "TypeScript", "Python"],
+      internalLink: "/projects/nlp-platform",
+      externalLink: "https://github.com/janedoe/nlp-platform",
+      image: "/projects/nlp/main.jpg",
     },
     {
-      title: "VR Physical Therapy",
-      description: "Designed and implemented KineVirtual, a VR therapy solution aimed at improving hand and wrist function. Integrated advanced hand recognition technology to accurately track and analyze movements, providing real-time feedback on exercise performance. This innovative approach created a highly immersive and interactive rehabilitation experience, significantly enhancing patient engagement.",
-      technologies: ["Unity", "C++",],
-      internalLink: "/projects/kineVirtual",
-      externalLink: "https://github.com/iaravagni/kineVirtual",
-      image: "/projects/kineVirtual/kineVirtual.png",
+      title: "Autonomous Drone Navigation",
+      description: "Implemented reinforcement learning algorithms for autonomous drone navigation in complex environments.",
+      technologies: ["PyTorch", "ROS", "C++", "Python"],
+      internalLink: "/projects/drone-nav",
+      externalLink: "https://github.com/janedoe/drone-nav",
+      image: "/projects/drone/main.jpg",
     },
   ];
