@@ -27,7 +27,7 @@ export default function BuyersPredProject() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold">Overview</h2>
           <p className="text-muted-foreground leading-relaxed">
-          This project addresses a critical challenge for merchants participating in the "Double 11" sales day: identifying which new buyers are likely to become repeat customers. By leveraging anonymized shopping logs, we aim to predict customer retention and help merchants enhance their promotional strategies, leading to improved ROI and sustainable customer relationships.
+          This project addresses a critical challenge for merchants participating in the Double 11 sales day: identifying which new buyers are likely to become repeat customers. By leveraging anonymized shopping logs, we aim to predict customer retention and help merchants enhance their promotional strategies, leading to improved ROI and sustainable customer relationships.
           </p>
         </div>
       </section>

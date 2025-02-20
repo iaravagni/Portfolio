@@ -27,7 +27,7 @@ export default function AnemiaProject() {
         <div className="space-y-6">
           <h2 className="text-3xl font-semibold">Overview</h2>
           <p className="text-muted-foreground leading-relaxed">
-          This project addresses a critical challenge for merchants participating in the "Double 11" sales day: identifying which new buyers are likely to become repeat customers. By leveraging anonymized shopping logs, we aim to predict customer retention and help merchants enhance their promotional strategies, leading to improved ROI and sustainable customer relationships.
+          This project focuses on detecting anemia by segmenting red blood cells (RBCs) from blood smear images and classifying them as healthy or anemic. Using advanced deep learning techniques, including fine-tuned Segment Anything Model (SAM), this model improves segmentation accuracy compared to traditional UNet-based approaches. The project also explores non-deep learning techniques like HOG + LightGBM for RBC classification. A Streamlit-based web app allows users to upload images, segment RBCs, and analyze anemia risk interactively.
           </p>
         </div>
       </section>
@@ -52,9 +52,9 @@ export default function AnemiaProject() {
           Key Features
         </h2>
         <ul className="my-6 ml-6 list-disc [&>li]:mt-2">
-        <li>AI-Driven Customer Retention Prediction: Built models to identify repeat buyers using historical shopping data.</li>
-        <li>Ensemble Machine Learning: Combined multiple ML models (XGBoost, LightGBM, etc.) for higher accuracy.</li>
-        <li>Advanced Feature Engineering: Extracted behavioral patterns, merchant interactions, and temporal trends.</li>
+        <li>Automated RBC Segmentation: Fine-tuned SAM model outperforms standard segmentation models in accuracy and IoU.</li>
+        <li>Hybrid Modeling Approach: Comparison of deep learning (SAM, UNet) and non-deep learning (HOG + LightGBM) methods.</li>
+        <li>Interactive Web App: Deployed via Streamlit, allowing real-time RBC segmentation and anemia classification.</li>
         </ul>
       </section>
 
@@ -62,7 +62,7 @@ export default function AnemiaProject() {
       <section>
         <Button asChild>
           <a
-            href="https://github.com/iaravagni/AIPI520_FinalProject"
+            href="https://github.com/shaunak-badani/Computer-Vision-Project"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center"
