@@ -12,7 +12,7 @@ export default function AnemiaProject() {
       <h1 className="text-4xl font-bold mb-2 tracking-tight">
       Anemia Detection with RBC Segmentation
       </h1>
-      <p className="text-muted-foreground mb-6">{projects[1].description}</p>
+      <p className="text-muted-foreground mb-6">{projects[0].description}</p>
       <div className="relative w-full h-[400px] mb-8 rounded-lg overflow-hidden">
         <Image
           src="/projects/anemia/anemia.png"
