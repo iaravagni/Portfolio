@@ -8,9 +8,9 @@ import { Button } from "@/components/ui/button";
 const getProjectByKey = (key: string) =>
   projects.find((p) => p.key === key);
 
-const project = getProjectByKey("kineVirtual");
+const project = getProjectByKey("glucose");
 
-export default function KineVirtualProject() {
+export default function GlucoseProject() {
   if (!project) {
     return <div className="text-red-500">Project not found.</div>;
   }
